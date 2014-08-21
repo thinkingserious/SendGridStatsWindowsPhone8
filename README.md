@@ -1,6 +1,8 @@
 This code is not production ready. It is meant to help you integrate quickly with SendGrid when developing for Windows Phone 8.1. You will need to incorporate error handling and testing. 
 
-The companion blog post, which explains the usage of this code can be found here (coming soon).
+The companion blog post, which explains the usage of this code can be found here (coming soon). 
+
+**tl;dr;** This code uses the [SendGrid Web API](https://sendgrid.com/docs/API_Reference/Web_API/index.html) to show your [email statistics](https://sendgrid.com/docs/API_Reference/Web_API/Statistics/index.html) in a Windows Phone 8.1 app.
 
 ## Getting Started
 
