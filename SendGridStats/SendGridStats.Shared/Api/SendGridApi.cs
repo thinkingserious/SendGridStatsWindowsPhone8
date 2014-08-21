@@ -20,7 +20,13 @@ namespace SendGridStats.Api
 			SendGridUsername = username;
 			SendGridPassword = password;
 		}
-
+		
+		// days must be an integer greater than 0 and less than 1096, it represents 
+		// the number of days in the past to include statistics (Includes today)
+		
+		// aggregate is either 0 or 1, where a value of 1 indicates you are interested in all-time totals
+		
+		// Documentation: https://sendgrid.com/docs/API_Reference/Web_API/Statistics/index.html
 		public async Task<ObservableCollection<EmailStats>> GetStats(uint days = 1, uint aggregate = 0)
 		{
 			if (days < 1)
