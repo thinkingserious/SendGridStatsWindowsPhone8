@@ -39,14 +39,13 @@ namespace SendGridStats
 			switch (hubId)
 			{
 				case "stats-item-recent":
-                    Frame.Navigate(typeof(StatsPage), hubId);
-                    break;
+                    			Frame.Navigate(typeof(StatsPage), hubId);
+                    			break;
 				case "stats-item-totals":
-                    Frame.Navigate(typeof(StatsPage), hubId);
+                    			Frame.Navigate(typeof(StatsPage), hubId);
 					break;
 			}
 		}
-
 
 		/// <summary>
 		/// Populates the page with content passed during navigation.  Any saved state is also
