@@ -1,0 +1,18 @@
+﻿{
+	"hubs": [
+		{
+			"name": "stats",
+			"id": "hub-stats",
+			"items": [
+				{
+					"name": "Recent",
+					"id": "stats-item-recent"
+				},
+				{
+					"name": "Totals",
+					"id": "stats-item-totals"
+				}
+			]
+		}
+	]
+}
