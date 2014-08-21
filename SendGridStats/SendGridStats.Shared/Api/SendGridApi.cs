@@ -31,7 +31,7 @@ namespace SendGridStats.Api
 			var httpClient = new HttpClient();
 			var response = await httpClient.GetAsync(
 				new Uri(String.Format("{0}stats.get.json?api_user={1}&api_key={2}&date=1&days={3}&aggregate={4}", 
-				SendGridApiBase, SendGridUsername, SendGridPassword, days, aggregate)));
+					SendGridApiBase, SendGridUsername, SendGridPassword, days, aggregate)));
             		
             		string responseBody = await response.Content.ReadAsStringAsync();
             		
