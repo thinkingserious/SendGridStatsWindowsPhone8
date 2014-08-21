@@ -110,7 +110,7 @@ namespace SendGridStats
 			}
 
 			// Initalize the SendGrid API Helper
-            SendGridApi = new SendGridApi("", "");
+            		SendGridApi = new SendGridApi("", "");
 
 			// Ensure the current window is active
 			Window.Current.Activate();
