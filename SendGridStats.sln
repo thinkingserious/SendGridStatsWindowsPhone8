@@ -1,13 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SendGridStats", "SendGridStats", "{C8435A11-E3F3-484F-BB8B-D54D4689197B}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SendGridStats.Shared", "SendGridStats\SendGridStats.Shared\SendGridStats.Shared.shproj", "{108EC8A0-8EDE-4B2C-866F-BA351F32F31F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendGridStats.WindowsPhone", "SendGridStats\SendGridStats.WindowsPhone\SendGridStats.WindowsPhone.csproj", "{C43151FB-AADD-4BB8-8A7B-94B77BD3DB79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{EDC836C3-2CD2-4ACA-B9C0-49C6CBE0BF6E}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution

@@ -10,7 +10,7 @@ This code was tested in Microsoft Visual Studio Express 2013 for Windows.
 
 Minimally, you will need a [free SendGrid account](http://sendgrid.com/transactional-email/pricing). 
 
-Enter your SendGrid credentials [here](https://github.com/thinkingserious/SendGridStatsWindowsPhone8/blob/master/SendGridStats/SendGridStats.Shared/App.xaml.cs) where the SendGrid API object is instantiated.
+Enter your SendGrid credentials [here](https://github.com/thinkingserious/SendGridStatsWindowsPhone8/blob/master/SendGridStats/SendGridStats.Shared/App.xaml.cs#L113) where the SendGrid API object is instantiated.
 
 ## Info & Help
 
